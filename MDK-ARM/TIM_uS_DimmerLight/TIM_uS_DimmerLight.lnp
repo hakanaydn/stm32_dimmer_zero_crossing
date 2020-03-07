@@ -1,0 +1,26 @@
+--cpu Cortex-M4.fp
+"tim_us_dimmerlight\stm32f4xx_hal_timebase_tim.o"
+"tim_us_dimmerlight\main.o"
+"tim_us_dimmerlight\stm32f4xx_hal_msp.o"
+"tim_us_dimmerlight\stm32f4xx_it.o"
+"tim_us_dimmerlight\stm32f4xx_hal_dma_ex.o"
+"tim_us_dimmerlight\stm32f4xx_hal_cortex.o"
+"tim_us_dimmerlight\stm32f4xx_hal_pwr.o"
+"tim_us_dimmerlight\stm32f4xx_hal_flash_ex.o"
+"tim_us_dimmerlight\stm32f4xx_hal_flash.o"
+"tim_us_dimmerlight\stm32f4xx_hal.o"
+"tim_us_dimmerlight\stm32f4xx_hal_tim_ex.o"
+"tim_us_dimmerlight\stm32f4xx_hal_gpio.o"
+"tim_us_dimmerlight\stm32f4xx_hal_dma.o"
+"tim_us_dimmerlight\stm32f4xx_hal_pwr_ex.o"
+"tim_us_dimmerlight\stm32f4xx_hal_rcc.o"
+"tim_us_dimmerlight\stm32f4xx_hal_flash_ramfunc.o"
+"tim_us_dimmerlight\stm32f4xx_hal_uart.o"
+"tim_us_dimmerlight\stm32f4xx_hal_rcc_ex.o"
+"tim_us_dimmerlight\stm32f4xx_hal_tim.o"
+"tim_us_dimmerlight\startup_stm32f429xx.o"
+"tim_us_dimmerlight\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "TIM_uS_DimmerLight\TIM_uS_DimmerLight.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TIM_uS_DimmerLight.map" -o TIM_uS_DimmerLight\TIM_uS_DimmerLight.axf
